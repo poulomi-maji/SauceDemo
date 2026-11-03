@@ -21,5 +21,6 @@ test("create an Account", async({page})=>{
     //logout
     await page.locator("#react-burger-menu-btn").click()
     await page.locator("//a[.='Logout']").click()
+    console.log("==logout done==")
 
 })
